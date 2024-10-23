@@ -38,5 +38,6 @@ android {
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation('com.github.barteksc:android-pdf-viewer:3.2.0-beta.1')
+    implementation('com.github.mhiew:android-pdf-viewer:3.2.0-beta.3')
 }
+// https://stackoverflow.com/questions/71627522/failed-to-resolve-com-github-bartekscandroid-pdf-viewer3-2-0-beta-1-how-to-fi
