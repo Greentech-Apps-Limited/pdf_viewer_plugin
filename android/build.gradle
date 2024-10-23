@@ -17,13 +17,14 @@ rootProject.allprojects {
         google()
         jcenter()
         mavenCentral()
-		maven { url 'https://jitpack.io' }
+        maven { url 'https://jitpack.io' }
     }
 }
 
 apply plugin: 'com.android.library'
 
 android {
+    namespace "dev.britto.pdf_viewer_plugin"
     compileSdkVersion 30
 
     defaultConfig {
@@ -37,5 +38,5 @@ android {
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
-    implementation ('com.github.barteksc:android-pdf-viewer:3.2.0-beta.1')
+    implementation('com.github.barteksc:android-pdf-viewer:3.2.0-beta.1')
 }
